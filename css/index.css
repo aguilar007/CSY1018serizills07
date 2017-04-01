@@ -1,0 +1,167 @@
+body{
+  background: url(../images/hellobackground.jpg);
+  background-position: top;
+  margin-top: 0px;
+  background-size: cover;
+}
+.headtext{
+text-align: center;
+font-family: 'Baloo Bhaina', cursive;
+font-size: 3em;
+color: white;
+text-shadow: 1px 5px skyblue;
+padding: 0.1%;
+margin-top: 0.5%;
+margin-bottom: auto;
+}
+
+header {
+  padding: 0.1%;
+  margin-top: 0.5%;
+}
+
+li{
+font-size: 40px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.menubar{
+  padding:2%;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.menubar ul{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 0; margin-right: 4%; padding: 1%;
+}
+
+.menubar ul li{
+  padding: 10px;
+  flex-grow: 0;
+  text-align:center;
+  background: linear-gradient(to bottom, #ccccff 0%, #ff99cc 100%);
+  border-radius: 30px;
+  border: 2px solid black;
+  text-decoration: none;
+}
+
+
+.menubar ul li:hover{
+    border-radius: 50px;
+
+}
+
+.menubar ul li a{
+  color:black;
+}
+.menubar ul li:hover{
+  /*background: #66ff66;*/
+  background: radial-gradient(#33adff,white);
+  border-radius: 50px;
+
+}
+
+.article-image{
+  height: 400px;
+}
+
+.article-image img{
+  margin: auto;
+  display: block;
+  height: 200px;
+  width: 200px;
+  border:2px solid black;
+  border-radius: 50%;
+  position: relative;
+  animation-name: success;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  transition: transform 2s, opacity 2s;
+}
+@keyframes success {
+  0%{left:0px; top: 0px;}
+  25%{left: 300px; top: 0px;}
+  50%{left: 300px; top: 120px;}
+  75%{left: 0px; top: 120px;}
+  100%{left: 0px; top: 0px;}
+}
+
+.article-image img:hover{
+  transform: rotate(360deg); opacity: 0.75;
+}
+
+
+
+.maintext p.index-text{
+  margin-top:5px;
+  margin-bottom: 0px;
+  font-size: 4em;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  color: white;
+}
+.maintext p.index-text2{
+  font-size: 3em;
+  font-family: 'Clicker Script', cursive;
+  margin-bottom: 0px;
+  margin-top: auto;
+  text-align: center;
+  color:  white;
+}
+.maintext p.index-text3{
+  font-size: 2em;
+  font-family: 'Dancing Script', cursive;
+  margin-top: auto;
+  margin-bottom: 1px;
+  text-align: center;
+  color: white;
+}
+
+footer{
+  display:flex; justify-content:space-between;
+  margin-top:5%;
+  background: linear-gradient(to bottom, #80bfff 0%, #ff99cc 100%);
+}
+
+.copyright{
+  width:45%;
+  /*border: 2px solid black;*/
+  text-align: center;
+  color: white;
+}
+
+.copyright1{
+  border: 4px;
+  text-align: center;
+  border: 2px ;
+  color: black;
+}
+.copyright p a{
+  text-decoration-style: none;
+  color: white;
+}
+
+.contact{
+  width:45%;
+  /*border: 2px solid black;*/
+  text-align: center;
+}
+
+.contact1{
+  border: 4px;
+  text-align: center;
+  border: 2px ;
+  color: black;
+}
+.contact1 img:hover{
+  opacity: 0.7;
+
+}

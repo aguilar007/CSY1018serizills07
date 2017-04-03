@@ -1,0 +1,115 @@
+body{
+  background: url(../images/hellobackground.jpg);
+  background-position: top;
+  margin-top: 0px;
+  background-size: cover;
+}
+
+li{
+font-size: 40px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.menubar{
+  padding:2%;
+  margin-bottom: auto;
+  margin-top: -20px;
+}
+
+.menubar ul{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.menubar ul li{
+  padding: 5px;
+  flex-grow: 0;
+  text-align:center;
+  background: linear-gradient(to bottom, #ccccff 0%, #ff99cc 100%);
+  border-radius: 30px;
+  border: 2px solid black;
+  text-decoration: none;
+}
+
+.menubar ul li:hover{
+    border-radius: 50px;
+
+}
+
+.menubar ul li a{
+  color:black;
+}
+
+.menubar ul li:hover{
+  background: radial-gradient(#33adff,white);
+  border-radius: 50px;
+}
+
+section{
+  display: flex;
+  justify-content: space-around;
+}
+
+.messageme{
+  padding: 1%;
+  width: 30%;
+}
+
+.someinfo{
+  padding: 5%;
+  width: 70%;
+  text-align: center;
+}
+
+.someinfo p a{
+  color: white;
+}
+
+.someinfo p{
+  color: white;
+}
+
+
+footer{
+  display:flex;
+  justify-content:space-between;
+  margin-top:30px;
+  background: linear-gradient(to bottom, #80bfff 0%, #ff99cc 100%);
+}
+
+.copyright{
+  width:45%;
+  text-align: center;
+  color: white;
+}
+
+.copyright1{
+  border: 4px;
+  text-align: center;
+  border: 2px ;
+  color: black;
+}
+.copyright p a{
+  color: white;
+}
+
+.contact{
+  width:45%;
+  text-align: center;
+}
+
+.contact1{
+  border: 4px;
+  text-align: center;
+  border: 2px ;
+  color: black;
+}
+
+.contact1 img:hover{
+  opacity: 0.7;
+}

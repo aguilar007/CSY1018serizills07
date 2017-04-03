@@ -1,0 +1,189 @@
+body{
+  background: url(../images/hellobackground.jpg);
+  background-position: top;
+  margin-top: 0px;
+  background-size: cover;
+}
+
+li{
+font-size: 40px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.menubar{
+  padding:2%;
+  margin-bottom: auto;
+  margin-top: 0px;
+}
+
+.menubar ul{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.menubar ul li{
+  padding: 5px;
+  flex-grow: 0;
+  text-align:center;
+  background: linear-gradient(to bottom, #ccccff 0%, #ff99cc 100%);
+  border-radius: 30px;
+  border: 2px solid black;
+  text-decoration: none;
+}
+
+
+.menubar ul li:hover{
+    border-radius: 50px;
+
+}
+
+.menubar ul li a{
+  color:black;
+}
+.menubar ul li:hover{
+  background: radial-gradient(#33adff,white);
+  border-radius: 50px;
+}
+.info{
+  padding: 2%;
+}
+
+.info .minedetail h2{
+  color: #ffffe6;
+  letter-spacing: 3px;
+  font-family: monospace,serif;
+  font-size: 2em;
+  display: block;
+  margin-bottom: 3px;
+  margin-top: 1px;
+}
+
+.minedetail h3{
+  text-decoration: underline;
+  font-family: monospace,serif;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+
+.info .minedetail  .hello{
+  letter-spacing: 1px;
+  font-family: monospace,serif;
+  display: block;
+  margin-bottom: auto;
+}
+.info .minedetail .hello img{
+  height: 100px;
+  width: 100px;
+  border:2px solid black;
+  position:relative;
+  display: block;
+  padding: 0%;
+}
+
+.info .educationdetail{
+  font-family: monospace,serif;
+  letter-spacing: 1px;
+  margin-bottom: auto;
+}
+
+.info .educationdetail h3{
+  text-decoration: underline;
+  font-family: monospace,serif;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.info .educationdetail .edu{
+  letter-spacing: 1px;
+  display: block;
+  margin-top: 0px;
+
+}
+
+.info .capability h3{
+  text-decoration: underline;
+  font-family: monospace,serif;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+  margin-top: 3%;
+}
+
+.info .capability p{
+  letter-spacing: 1px;
+  font-family: monospace,serif;
+  margin-top: 0px;
+  display: block;
+}
+
+.info .interns h3{
+  text-decoration: underline;
+  font-family: monospace,serif;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  margin-top: 1%;
+}
+
+.info .interns P{
+  letter-spacing: 1px;
+  font-family: monospace,serif;
+  margin-top: 0px;
+  display: block;
+}
+
+.info .hobby h3{
+  text-decoration: underline;
+  font-family: monospace,serif;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  margin-top: 2%;
+}
+
+.info .hobby p{
+  letter-spacing: 1px;
+  font-family: monospace,serif;
+  margin-top: 0px;
+  display: block;
+}
+
+footer{
+  display:flex; justify-content:space-between;
+  margin-top:30px;
+  background: linear-gradient(to bottom, #80bfff 0%, #ff99cc 100%);
+}
+
+.copyright{
+  width:45%;
+  text-align: center;
+  color: white;
+}
+
+.copyright1{
+  border: 4px;
+  text-align: center;
+  border: 2px ;
+  color: black;
+}
+.copyright p a{
+  color: white;
+}
+
+.contact{
+  width:45%;
+  text-align: center;
+}
+
+.contact1{
+  border: 4px;
+  text-align: center;
+  border: 2px ;
+  color: black;
+}
+.contact1 img:hover{
+  opacity: 0.7;
+
+}

@@ -1,0 +1,40 @@
+/*Anand kandel UN ID:17421480*/
+.detail{        /*css for the div in which words are been written in paragraph*/
+  display: block;
+  position: relative;
+  margin-top: auto;
+}
+.detail p{         /*css for the div in which words are been written in paragraph and fonts are been used form google fonts*/
+  font-size: 2em;
+  text-align: justify;
+  color: #ffffe6;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-family: 'Handlee', cursive;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+.articleimage h3{    /*css for the heading which is above the image*/
+  text-align: center;
+  color: #ffffe6;
+  font-size: 2em;
+
+}
+
+
+.articleimage img{              /*css for the  image*/
+  margin: auto;
+  display: block;
+  height: 300px;
+  width: 300px;
+  border:2px solid black;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 20px;
+  transition: transform 2s;
+}
+
+.articleimage img:hover{    /*css for the change in picture done after hover on it*/
+  transform: scale(0.5,0.5);
+}

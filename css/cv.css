@@ -1,59 +1,10 @@
-body{
-  background: url(../images/hellobackground.jpg);
-  background-position: top;
-  margin-top: 0px;
-  background-size: cover;
-}
-
-li{
-font-size: 40px;
-}
-
-a{
-  text-decoration: none;
-}
-
-.menubar{
-  padding:2%;
-  margin-bottom: auto;
-  margin-top: 0px;
-}
-
-.menubar ul{
-    list-style: none;
-    display:flex;
-    flex-direction: row;
-    justify-content:space-around;
-}
-
-.menubar ul li{
-  padding: 5px;
-  flex-grow: 0;
-  text-align:center;
-  background: linear-gradient(to bottom, #ccccff 0%, #ff99cc 100%);
-  border-radius: 30px;
-  border: 2px solid black;
-  text-decoration: none;
-}
-
-
-.menubar ul li:hover{
-    border-radius: 50px;
-
-}
-
-.menubar ul li a{
-  color:black;
-}
-.menubar ul li:hover{
-  background: radial-gradient(#33adff,white);
-  border-radius: 50px;
-}
-.info{
+/*Anand kandel UN ID:17421480*/
+.info{             /*css for managing the cv part*/
   padding: 2%;
+  margin-bottom: auto;
 }
 
-.info .minedetail h2{
+.info .minedetail h2{  /*css for the heading curriculum vitae*/
   color: #ffffe6;
   letter-spacing: 3px;
   font-family: monospace,serif;
@@ -63,20 +14,20 @@ a{
   margin-top: 1px;
 }
 
-.minedetail h3{
+.minedetail h3{                /*css for the heading personal data*/
   text-decoration: underline;
   font-family: monospace,serif;
   margin-bottom: 5px;
   letter-spacing: 1px;
 }
 
-.info .minedetail  .hello{
+.info .minedetail  .hello{          /*css for the div and another div inside main div*/
   letter-spacing: 1px;
   font-family: monospace,serif;
   display: block;
   margin-bottom: auto;
 }
-.info .minedetail .hello img{
+.info .minedetail .hello img{             /*css for the image*/
   height: 100px;
   width: 100px;
   border:2px solid black;
@@ -85,32 +36,50 @@ a{
   padding: 0%;
 }
 
-.info .educationdetail{
+.info .educationdetail{                   /*css for the div  education*/
   font-family: monospace,serif;
   letter-spacing: 1px;
-  margin-bottom: auto;
+  margin-bottom: 0px;
 }
 
-.info .educationdetail h3{
+.info .educationdetail h3 {              /*css for the heading education*/
   text-decoration: underline;
   font-family: monospace,serif;
   letter-spacing: 1px;
   margin-bottom: 5px;
+  margin-top: 1%;
 }
 
-.info .educationdetail .edu{
+.info .educationdetail .edu{             /*css for the div and another div inside main div*/
   letter-spacing: 1px;
   display: block;
-  margin-top: 0px;
+  margin-top: 2px;
 
 }
 
-.info .capability h3{
+.info .educationdetail h3 p{
+  margin-bottom: 10px;
+}
+.info .present h3{                        /*css for the heading coursework*/
+  text-decoration: underline;
+  font-family: monospace,serif;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  margin-top: 1%;
+}
+.info .present p{
+  letter-spacing: 1px;
+  margin-top: 0px;
+  display: block;
+  font-family: monospace,serif;
+}
+
+.info .capability h3{                  /*css for the heading skills*/
   text-decoration: underline;
   font-family: monospace,serif;
   margin-bottom: 5px;
   letter-spacing: 1px;
-  margin-top: 3%;
+  margin-top: 1%;
 }
 
 .info .capability p{
@@ -120,7 +89,7 @@ a{
   display: block;
 }
 
-.info .interns h3{
+.info .interns h3{               /*css for the heading professional experience*/
   text-decoration: underline;
   font-family: monospace,serif;
   letter-spacing: 1px;
@@ -135,7 +104,7 @@ a{
   display: block;
 }
 
-.info .hobby h3{
+.info .hobby h3{                     /*css for the heading hobbies*/
   text-decoration: underline;
   font-family: monospace,serif;
   letter-spacing: 1px;
@@ -150,40 +119,4 @@ a{
   display: block;
 }
 
-footer{
-  display:flex; justify-content:space-between;
-  margin-top:30px;
-  background: linear-gradient(to bottom, #80bfff 0%, #ff99cc 100%);
-}
-
-.copyright{
-  width:45%;
-  text-align: center;
-  color: white;
-}
-
-.copyright1{
-  border: 4px;
-  text-align: center;
-  border: 2px ;
-  color: black;
-}
-.copyright p a{
-  color: white;
-}
-
-.contact{
-  width:45%;
-  text-align: center;
-}
-
-.contact1{
-  border: 4px;
-  text-align: center;
-  border: 2px ;
-  color: black;
-}
-.contact1 img:hover{
-  opacity: 0.7;
-
-}
+/*in some css font-family: monospace, serif; to make the text look attractive and letter spacing have been used too*/

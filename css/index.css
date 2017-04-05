@@ -1,10 +1,12 @@
+/*Anand kandel UN ID:17421480*/
 body{
   background: url(../images/hellobackground.jpg);
   background-position: top;
   margin-top: 0px;
   background-size: cover;
-}
-.headtext{
+}/*this css is for body part*/
+
+.headtext{                              /*this is css for the div heading*/
   text-align: center;
   font-family: 'Baloo Bhaina', cursive;
   font-size: 3em;
@@ -15,7 +17,7 @@ body{
   margin-bottom: auto;
 }
 
-header {
+header {                 /*this css is for the header part*/
   padding: 0.1%;
   margin-top: auto;
 }
@@ -24,24 +26,24 @@ li{
   font-size: 40px;
 }
 
-a{
+a{            /*this css removes the text decoration*/
   text-decoration: none;
 }
 
-.menubar{
+.menubar{    /*this css is for navigation bar*/
   padding:2%;
   margin-bottom: auto;
   margin-top: 0px;
 }
 
-.menubar ul{
+.menubar ul{   /*this is for unordered list of menubar*/
     list-style: none;
     display:flex;
     flex-direction: row;
     justify-content:space-around;
     }
 
-.menubar ul li{
+.menubar ul li{   /*this is for list of unordered list in menubar*/
   flex-grow: 0;
   text-align:center;
   background: linear-gradient(to bottom, #ccccff 0%, #ff99cc 100%);
@@ -52,11 +54,6 @@ a{
 }
 
 
-.menubar ul li:hover{
-    border-radius: 50px;
-
-}
-
 .menubar ul li a{
   color:black;
 }
@@ -66,11 +63,11 @@ a{
 
 }
 
-.article-image{
+.article-image{  /*this is css for the div containing image*/
   height: 400px;
 }
 
-.article-image img{
+.article-image img{      /*this css is for giving a change on image*/
   margin: auto;
   display: block;
   height: 300px;
@@ -83,7 +80,7 @@ a{
   animation-iteration-count: infinite;
   transition: transform 2s, opacity 2s;
 }
-@keyframes success {
+@keyframes success {                /*this is for animation*/
   0%{left:0px; top: 0px;}
   25%{left: 300px; top: 0px;}
   50%{left: 300px; top: 120px;}
@@ -91,52 +88,11 @@ a{
   100%{left: 0px; top: 0px;}
 }
 
-.article-image img:hover{
+.article-image img:hover{          /*css for the change in picture done after hover on it*/
   transform: rotate(360deg); opacity: 0.75;
 }
 
-.detail{
-  display: block;
-  position: relative;
-  margin-top: auto;
-}
-.detail p{
-  font-size: 2em;
-  text-align: justify;
-  color: #ffffe6;
-  margin-left: 2%;
-  margin-right: 2%;
-  font-family: 'Handlee', cursive;
-  margin-top: auto;
-  margin-bottom: auto;
-
-}
-.articleimage h3{
-  text-align: center;
-  color: #ffffe6;
-  font-size: 2em;
-
-}
-
-
-.articleimage img{
-  margin: auto;
-  display: block;
-  height: 300px;
-  width: 300px;
-  border:2px solid black;
-  border-radius: 50%;
-  position: relative;
-  margin-bottom: 20px;
-  animation-name: sucess;
-  transition: transform 2s;
-}
-
-.articleimage img:hover{
-  transform: scale(0.5,0.5);
-}
-
-.maintext p.index-text{
+.maintext p.index-text{          /*this css is for the main text under the image which is on another div*/
   margin-top:30px;
   margin-bottom: 0px;
   font-size: 4em;
@@ -144,7 +100,7 @@ a{
   text-align: center;
   color: white;
 }
-.maintext p.index-text2{
+.maintext p.index-text2{                    /*this css is for the primary text under the main text in a single div */
   font-size: 3em;
   font-family: 'Clicker Script', cursive;
   margin-bottom: 0px;
@@ -152,7 +108,7 @@ a{
   text-align: center;
   color:  white;
 }
-.maintext p.index-text3{
+.maintext p.index-text3{                        /*this css is for the secondary text under the primary text in a single div*/
   font-size: 2em;
   font-family: 'Dancing Script', cursive;
   margin-top: auto;
@@ -161,14 +117,15 @@ a{
   color: white;
 }
 
-footer{
+
+footer{                          /*this is css for footer*/
   display:flex;
   justify-content:space-between;
   margin-top:30px;
   background: linear-gradient(to bottom, #80bfff 0%, #ff99cc 100%);
 }
 
-.copyright{
+.copyright{             /*a css for div in footer*/
   width:45%;
   text-align: center;
   color: white;
@@ -184,7 +141,7 @@ footer{
   color: white;
 }
 
-.contact{
+.contact{                     /*a css for another div in footer*/
   width:45%;
   text-align: center;
 }
@@ -198,4 +155,10 @@ footer{
 
 .contact1 img:hover{
   opacity: 0.7;
+}
+
+@media (max-width: 1000px){           /*it is for making menubar responsive*/
+  .menubar ul {
+    flex-direction: column;
+  }
 }

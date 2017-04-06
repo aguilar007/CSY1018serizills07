@@ -119,4 +119,9 @@
   display: block;
 }
 
+section .info{            /*flex properties used but not for displaying on row but for column;*/
+  display:flex;
+  flex-direction: column  ;
+}
+
 /*in some css font-family: monospace, serif; to make the text look attractive and letter spacing have been used too*/

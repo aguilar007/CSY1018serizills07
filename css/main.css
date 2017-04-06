@@ -25,22 +25,41 @@ a{            /*this css removes the text decoration*/
     display:flex;
     flex-direction: row;
     justify-content:space-around;
-    }
+}
+
+@media (max-width: 1200px){           /*it is for making menubar responsive*/
+  .menubar ul{
+    flex-direction: column;
+    margin-bottom: 10%;
+  }
+}
 
 .menubar ul li{   /*this is for list of unordered list in menubar*/
   flex-grow: 0;
   text-align:center;
   background: linear-gradient(to bottom, #ccccff 0%, #ff99cc 100%);
   border-radius: 30px;
-  padding:5px;
+  /*padding:5px;*/
   border: 2px solid black;
   text-decoration: none;
 }
 
+@media (max-width: 1200px){     /*it is making the website responsive*/
+  .menubar ul li{
+    background: none;
+    border:none;
+    padding: 0px;
+    margin: auto;
+
+  }
+}
 
 .menubar ul li a{
   color:black;
 }
+
+
+
 .menubar ul li:hover{
   background: radial-gradient(#33adff,white);
   border-radius: 50px;
@@ -54,6 +73,13 @@ footer{                          /*this is css for footer*/
   background: linear-gradient(to bottom, #80bfff 0%, #ff99cc 100%);
 }
 
+@media (max-width: 1200px){    /*it is making the website responsive*/
+  footer{
+    flex-direction: column;
+}
+}
+
+
 .copyright{             /*a css for div in footer*/
   width:45%;
   text-align: center;
@@ -66,6 +92,13 @@ footer{                          /*this is css for footer*/
   border: 2px ;
   color: black;
 }
+
+@media (max-width: 1200px){    /*it is making the website responsive*/
+  footer .copyright, .contact, .copyright1, .contact1{
+  margin-left: 20%;
+}
+}
+
 .copyright p a{
   color: white;
 }
@@ -82,12 +115,10 @@ footer{                          /*this is css for footer*/
   color: black;
 }
 
-.contact1 img:hover{
-  opacity: 0.7;
+.contact1 img{
+  width:30px; height: 30px;
 }
 
-@media (max-width: 1000px){           /*it is for making menubar responsive*/
-  .menubar ul {
-    flex-direction: column;
-  }
+.contact1 img:hover{
+  opacity: 0.7;
 }

@@ -9,16 +9,30 @@ section{            /*css for the section part*/
   width: 30%;
 }
 
-.someinfo{       /*css for the div about PD for managing the nargins*/
-  padding: 5%;
-  width: 70%;
-  text-align: center;
+
+.container{              /*this is for using flex-box*/
+  width:70%;
+  display: flex;
 }
 
-.someinfo p a{
+.container-flex{             /*this is for using flex-box*/
+  width:300px;
+  margin:10px;
+  height: 100px;
+}
+
+.container-flex p{         /*this is for using flex-box*/
   color: white;
 }
 
-.someinfo p{           /*css for the paragraph of contact informations */
+.container-flex p a{             
   color: white;
+}
+
+
+
+@media (max-width: 1200px){            /*it is making the website responsive*/
+    section, .container {
+    flex-direction: column;
+  }
 }

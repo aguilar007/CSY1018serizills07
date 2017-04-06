@@ -1,0 +1,93 @@
+/*Anand kandel UN ID:17421480*/
+body{
+  background: url(../images/hellobackground.jpg);
+  background-position: top;
+  margin-top: 0px;
+  background-size: cover;
+}/*this css is for body part*/
+
+li{
+  font-size: 40px;
+}
+
+a{            /*this css removes the text decoration*/
+  text-decoration: none;
+}
+
+.menubar{    /*this css is for navigation bar*/
+  padding:2%;
+  margin-bottom: auto;
+  margin-top: 0px;
+}
+
+.menubar ul{   /*this is for unordered list of menubar*/
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    }
+
+.menubar ul li{   /*this is for list of unordered list in menubar*/
+  flex-grow: 0;
+  text-align:center;
+  background: linear-gradient(to bottom, #ccccff 0%, #ff99cc 100%);
+  border-radius: 30px;
+  padding:5px;
+  border: 2px solid black;
+  text-decoration: none;
+}
+
+
+.menubar ul li a{
+  color:black;
+}
+.menubar ul li:hover{
+  background: radial-gradient(#33adff,white);
+  border-radius: 50px;
+
+}
+
+footer{                          /*this is css for footer*/
+  display:flex;
+  justify-content:space-between;
+  margin-top:30px;
+  background: linear-gradient(to bottom, #80bfff 0%, #ff99cc 100%);
+}
+
+.copyright{             /*a css for div in footer*/
+  width:45%;
+  text-align: center;
+  color: white;
+}
+
+.copyright1{
+  border: 4px;
+  text-align: center;
+  border: 2px ;
+  color: black;
+}
+.copyright p a{
+  color: white;
+}
+
+.contact{                     /*a css for another div in footer*/
+  width:45%;
+  text-align: center;
+}
+
+.contact1{
+  border: 4px;
+  text-align: center;
+  border: 2px ;
+  color: black;
+}
+
+.contact1 img:hover{
+  opacity: 0.7;
+}
+
+@media (max-width: 1000px){           /*it is for making menubar responsive*/
+  .menubar ul {
+    flex-direction: column;
+  }
+}
